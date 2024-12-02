@@ -1,0 +1,408 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Navigation bar styles */
+.navbar {
+    background-color: #0492c2;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #04AA6D;
+}
+
+/* Header styles */
+.nameNatureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.nature {
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.portrait {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 2px solid #0492c2;
+    border-radius: 50%;
+}
+
+/* Introduction styles */
+.intro {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Outside interests styles */
+.outside {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* LinkedIn link styles */
+.rect {
+    margin: 20px;
+}
+
+.rect a {
+    text-decoration: none;
+    background-color: #0492c2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.rect a:hover {
+    background-color: #04AA6D;
+}
+
+/* Elevation image styles */
+.elevation {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #0492c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+button:hover {
+    background-color: #04AA6D;
+}
+
+/*Tech Page */ 
+/* First Row styles */
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.compProj, .progProj {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.compProj h2, .progProj h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.disc, .dogs {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* Second Row styles */
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.futProj {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.futProj h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.dixie {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+/*Qualifications Page */
+.alaska {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+.techSkills, .resumeHeading, .techIntr, .intern {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.techSkills h2, .resumeHeading h2, .techIntr h2, .intern h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.resumeHeading a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.resumeHeading a:hover {
+    text-decoration: underline;
+}
+
+.resume {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.resume object {
+    width: 100%;
+    height: 500px; 
+}
+
+/* Services and Activities Page */
+.nationals, .leader, .river, .bell, .acadia, .activities {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.nationals {
+    max-width: 100%;
+    height: auto;
+}
+
+.leader b {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.leader a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.leader a:hover {
+    text-decoration: underline;
+}
+
+.river, .bell, .acadia {
+    max-width: 100%;
+    height: auto;
+}
+
+.activities b {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.activities a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.activities a:hover {
+    text-decoration: underline;
+}
+
+/* AI Page */
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* First Navigation Bar */
+.nav-bar-1 {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-bar-1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-1 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-bar-1 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-bar-1 a:hover {
+    color: #0056b3;
+}
+
+/* Header */
+header {
+    background-image: url('Hawaii.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Second Navigation Bar */
+.nav-bar-2 {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-bar-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-2 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-bar-2 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-bar-2 a:hover {
+    color: #007bff;
+}
+
+/* Section Styles (for all sections with IDs) */
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Links in Sections */
+section a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}

@@ -1,0 +1,141 @@
+/* Reset some default styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* First Navigation Bar */
+.nav-bar-1 {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-bar-1 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-1 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-bar-1 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-bar-1 a:hover {
+    color: #0056b3;
+}
+
+/* Header */
+header {
+    background-image: url('Hawaii.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Second Navigation Bar */
+.nav-bar-2 {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-bar-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-2 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-bar-2 a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-bar-2 a:hover {
+    color: #007bff;
+}
+
+/* Section Styles (for all sections with IDs) */
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+section p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Links in Sections */
+section a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 50px 0;
+    }
+}

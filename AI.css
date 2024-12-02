@@ -1,0 +1,133 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cceeff; /* Light blue background */
+}
+
+/* Header styles */
+header {
+    background-image: url('Hawaii.jpg'); /* Replace with your image path */
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 50vh; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.opacity-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust opacity as needed */
+    width: 50%; /* Adjust the width as needed */
+    padding: 20px; /* Adjust padding as needed */
+    color: white;
+    text-align: center;
+    border-radius: 10px; /* Add rounded corners for a box effect */
+}
+
+
+
+.opacity-box h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+}
+
+/* First Navigation Bar styles */
+.nav-bar-1 {
+    background-color: #4683b7; /* Blue navigation bar */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-1 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-1 ul li {
+    margin: 10px;
+}
+
+.nav-bar-1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar-1 ul li a:hover {
+    background-color: #335b8e; /* Darker blue on hover */
+}
+
+/* Second Navigation Bar styles */
+.nav-bar-2 {
+    background-color: #72bb5e; /* Green navigation bar */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bar-1 a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.nav-bar-2 ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar-2 ul li {
+    margin: 10px;
+}
+
+.nav-bar-2 ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar-2 ul li a:hover {
+    background-color: #5b9952; /* Darker green on hover */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+    background-color: #4683b7;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+/* Links styles */
+a {
+    color: #4683b7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
